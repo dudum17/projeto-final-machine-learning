@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['ball', 'player', 'team1', 'team2']
+
+roboflow:
+  workspace: school-research
+  project: football-and-player-detection-ef0dh
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/school-research/football-and-player-detection-ef0dh/dataset/10
